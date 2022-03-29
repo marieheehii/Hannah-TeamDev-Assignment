@@ -32,8 +32,9 @@ using System.Threading.Tasks;
                 if(developer.ID == id)
                 {
                     return developer;
-                }return null;
+                }
             }
+            return null;
         }
         public bool RemoveDeveloperFromDatabase(int id)
         {

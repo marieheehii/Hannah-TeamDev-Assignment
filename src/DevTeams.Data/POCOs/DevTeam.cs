@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DevTeams.Data.POCOs
-{
+
     public class DevTeam
     {
         public DevTeam() {}
@@ -18,4 +17,3 @@ namespace DevTeams.Data.POCOs
 
         public List<Developer> Developers {get; set;} = new List<Developer>();
     }
-}
