@@ -9,11 +9,11 @@ using System.Threading.Tasks;
        public Developer(){}
        public Developer(string firstName, string lastName, bool hasPluralSightAccess)
        {
-           firstName=FirstName;
-           lastName=LastName;
-           hasPluralSightAccess=HasPluralSightAccess;
+           FirstName=firstName;
+           LastName=lastName;
+           HasPluralSightAccess=hasPluralSightAccess;
        }
-       public string FirstName { get; set; }
+       public string FirstName { get; set; }//null
        public string  LastName { get; set; }
        public int ID {get; set;}
        public bool HasPluralSightAccess {get; set;}

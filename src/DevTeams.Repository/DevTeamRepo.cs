@@ -14,6 +14,7 @@ using System.Threading.Tasks;
             if(devTeam !=null)
             {
                 _count++;
+                devTeam.ID= _count;
                 _devTeamsDatabase.Add(devTeam);
                 return true;
             }else{

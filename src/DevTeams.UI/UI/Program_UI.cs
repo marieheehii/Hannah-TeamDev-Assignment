@@ -21,7 +21,7 @@ using System.Threading.Tasks;
             while(isRunning)
             {
                 Console.Clear();
-                Console.Clear();
+                // Console.Clear();
             System.Console.WriteLine("=== Welcome to Komodo Dev Teams! ===");
             System.Console.WriteLine("Make a Selection: \n"+
             "1.  Add Team to Database\n"+
